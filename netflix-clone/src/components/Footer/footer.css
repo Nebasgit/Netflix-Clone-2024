@@ -1,0 +1,26 @@
+body {
+  background: #141414;
+}
+.Footer_Section {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.SocialMediaIcons img {
+  height: 1.5em;
+  padding-right: 40px;
+  max-width: 980px;
+}
+
+.Footer_list {
+  font-size: 13px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+.Footer_list a {
+  color: grey;
+  font-size: 13px;
+  padding: 8px 0px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}

@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './pages/Home/Home'
 
 function App() {
 
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <div className="APP">
+    <Home/>
+    </div>
   )
 }
 

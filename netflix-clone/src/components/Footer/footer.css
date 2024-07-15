@@ -2,7 +2,7 @@ body {
   background: #141414;
 }
 .Footer_Section {
-  max-width: 780px;
+  max-width: 980px;
   margin: 0 auto;
 }
 
@@ -23,4 +23,14 @@ body {
   padding: 8px 0px;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
     sans-serif;
+}
+.Footer_end {
+  color: grey;
+  font-size: 13px;
+  padding: 8px 30px;
+}
+.Service_Code {
+  border: solid grey 1px;
+ display: inline-block;
+ padding: 5px;
 }

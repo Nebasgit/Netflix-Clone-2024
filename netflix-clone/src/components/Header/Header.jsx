@@ -9,7 +9,10 @@ function Header() {
       <div className="header_outer_container ">
         <div className="header_container">
           <div className="header_left">
-            <ul ><li><img src={Netflix} alt="" /></li></ul>
+            <ul >
+              <li><img src={Netflix} alt="" />
+              </li>
+              </ul>
             <ul className="headerMiddleList d-flex">
               {HeaderData[0].first.map(({ text, url, img }, i) => {
                 return (
